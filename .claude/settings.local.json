@@ -103,7 +103,8 @@
       "Bash(mv components/admin/SimpleLineChart.tsx components/admin/CreateKnowledgeBaseDialog.tsx features/admin/components/shared/)",
       "Bash(rmdir components/admin)",
       "Bash(rmdir components *)",
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "Bash(awk -F: '{sum += $2} END {print \"Total references:\", sum}')"
     ]
   }
 }
